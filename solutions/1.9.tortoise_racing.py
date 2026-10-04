@@ -21,11 +21,10 @@ def race(v1, v2, g):
     
     return [hours, minutes, seconds]
 
-if __name__ == "__main__":
-    print(race(720, 850, 70))  
-    print(race(820, 81, 550))   
-    print(race(80, 91, 37))      
-    print(race(80, 100, 40))   
-    print(race(720, 850, 370)) 
-    print(race(820, 850, 550)) 
-    print(race(100, 100, 50)) 
+print(race(720, 850, 70))  
+print(race(820, 81, 550))   
+print(race(80, 91, 37))      
+print(race(80, 100, 40))   
+print(race(720, 850, 370)) 
+print(race(820, 850, 550)) 
+print(race(100, 100, 50)) 
