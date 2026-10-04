@@ -13,9 +13,9 @@ def even_fib_sum(limit):
         a, b = b, a + b
         
     return total_sum
-    even_fib_sum(13)        
-    even_fib_sum(34)       
-    even_fib_sum(100)       
-    even_fib_sum(200)    
-    even_fib_sum(10000)  
-    even_fib_sum(4000000)
+print(even_fib_sum(13))       
+print(even_fib_sum(34))     
+print(even_fib_sum(100))      
+print(even_fib_sum(200)) 
+print(even_fib_sum(10000))
+print(even_fib_sum(4000000))
