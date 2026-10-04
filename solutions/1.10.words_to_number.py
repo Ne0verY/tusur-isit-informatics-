@@ -40,8 +40,7 @@ def words_to_number(text):
             
     return result + current
 
-# Проверки
-# print(words_to_number("one")) # 1
-# print(words_to_number("twenty")) # 20
-# print(words_to_number("two hundred forty-six")) # 246
-# print(words_to_number("seven hundred eighty-three thousand nine hundred and nineteen")) # 783919
+print(words_to_number("one"))       
+print(words_to_number("twenty"))        
+print(words_to_number("two hundred forty-six"))  
+print(words_to_number("seven hundred eighty-three thousand nine hundred and nineteen"))
