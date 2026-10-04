@@ -9,6 +9,6 @@ def is_disarium(n):
         
     # Сравниваем сумму с исходным числом
     return total_sum == n
-    is_disarium(89)   
-    is_disarium(135)   
-    is_disarium(564)
+print(is_disarium(89))   
+print(is_disarium(135))   
+print(is_disarium(564))
