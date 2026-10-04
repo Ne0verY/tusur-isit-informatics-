@@ -8,8 +8,8 @@ def square_digits(n):
         result += str(squared)
         
     return int(result)
-    square_digits(3212)  
-    square_digits(2112)  
-    square_digits(0)      
-    square_digits(999) 
-    square_digits(10001)
+print(square_digits(3212))  
+print(square_digits(2112)) 
+print(square_digits(0)) 
+print(square_digits(999))
+print(square_digits(10001))
