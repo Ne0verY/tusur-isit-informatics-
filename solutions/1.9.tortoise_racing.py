@@ -21,12 +21,11 @@ def race(v1, v2, g):
     
     return [hours, minutes, seconds]
 
-# --- Проверка на примерах из задания ---
 if __name__ == "__main__":
-    print(race(720, 850, 70))    # Ожидается: [0, 32, 18]
-    print(race(820, 81, 550))    # Ожидается: None
-    print(race(80, 91, 37))      # Ожидается: [3, 21, 49]
-    print(race(80, 100, 40))     # Ожидается: [2, 0, 0]
-    print(race(720, 850, 370))   # Ожидается: [2, 50, 46]
-    print(race(820, 850, 550))   # Ожидается: [18, 20, 0]
-    print(race(100, 100, 50))    # Ожидается: None
+    print(race(720, 850, 70))  
+    print(race(820, 81, 550))   
+    print(race(80, 91, 37))      
+    print(race(80, 100, 40))   
+    print(race(720, 850, 370)) 
+    print(race(820, 850, 550)) 
+    print(race(100, 100, 50)) 
