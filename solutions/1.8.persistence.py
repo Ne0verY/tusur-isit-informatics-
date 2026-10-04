@@ -17,7 +17,7 @@ def persistence(num):
         steps += 1
         
     return steps
-    persistence(39) 
-    persistence(999)  
-    persistence(25)   
-    persistence(4)
+print(persistence(39))
+print(persistence(999)) 
+print(persistence(25))  
+print(persistence(4))
