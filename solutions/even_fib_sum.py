@@ -9,11 +9,13 @@ def even_fib_sum(limit):
         if b % 2 == 0:
             total_sum += b
         
-        # Переходим к следующему числу Фибоначчи
-        # Новое a = старое b, новое b = сумма старых a и b
+        # Переходим к следующему числу Фибоначчи, Новое a = старое b, новое b = сумма старых a и b
         a, b = b, a + b
         
     return total_sum
-
-# Проверка
-# print(even_fib_sum(100)) # 2 + 8 + 34 = 44
+    even_fib_sum(13)        
+    even_fib_sum(34)       
+    even_fib_sum(100)       
+    even_fib_sum(200)    
+    even_fib_sum(10000)  
+    even_fib_sum(4000000)
