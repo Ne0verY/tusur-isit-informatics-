@@ -17,15 +17,7 @@ def persistence(num):
         steps += 1
         
     return steps
-
-# Проверка
-# print(persistence(39))  # 3
-# print(persistence(999)) # 4
-# print(persistence(4))   # 0
-
-# Поиск числа с устойчивостью 5 (проверка из задания)
-# for i in range(1, 1000000):
-#     if persistence(i) == 5:
-#         print(f"Число с устойчивостью 5: {i}")
-#         break
-# Ответ для проверки: 679
+    persistence(39) 
+    persistence(999)  
+    persistence(25)   
+    persistence(4)
